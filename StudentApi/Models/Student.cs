@@ -24,10 +24,6 @@ namespace StudentApi.Models {
       student_age = Convert.ToInt32 (row["student_age"]);
       student_email = row["student_email"].ToString ();
     }
-    public int student_sysid { get; set; }
-    public int student_id { get; set; }
-    public string student_name { get; set; }
-    public int student_age { get; set; }
-    public string student_email { get; set; }
+
   }
 }
